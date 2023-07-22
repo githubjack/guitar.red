@@ -1,16 +1,15 @@
-
-import './App.css';
-
+import "./App.css";
+import Header from "./Header";
+import Hero from "./Hero";
+import Section from "./Section";
+import Footer from "./Footer";
 function App() {
   return (
     <div className="app">
-      <div className='app-nav'>
-      Guitar<span className='dot'>.</span>
-      </div>
-      <header className="app-header">
-      <h1>Guitar </h1>
-      <p className="coming-soon"><u>Coming soon</u></p>
-      </header>
+      <Header />
+      <Hero />
+      <Section />
+      <Footer />
     </div>
   );
 }
