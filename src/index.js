@@ -6,12 +6,35 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
+import AboutPage from './pages/AboutPage';
+import CoursesPage from './pages/CoursesPage';
+import FaqPage from './pages/FaqPage';
+import ContactPage from './pages/ContactPage';
+import NotFoundPage from './pages/NotFoundPage';
 import reportWebVitals from './reportWebVitals';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <NotFoundPage />,
+  },
+  {
+    path: "/about",
+    element: <AboutPage />,
+  },
+  {
+    path: "/courses",
+    element: <CoursesPage />,
+  },
+  {
+    path: "/faqs",
+    element: <FaqPage />,
+  },
+  {
+    path: "/contact",
+    element: <ContactPage />,
   },
 ]);
 
