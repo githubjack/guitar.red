@@ -3,7 +3,7 @@ import MainLayout from '../layout/MainLayout'
 function FaqPage() {
   return (
     <MainLayout>
-      <div>Faqs page</div>
+      <div className='page-layout'>Faqs page</div>
     </MainLayout>
   )
 }

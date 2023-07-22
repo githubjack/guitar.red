@@ -1,9 +1,9 @@
-import React from 'react';
-import MainLayout from '../layout/MainLayout';
+import React from "react";
+import MainLayout from "../layout/MainLayout";
 function AboutPage() {
   return (
     <MainLayout>
-      <div>About page</div>
+      <div className="page-layout">About page</div>
     </MainLayout>
   );
 }

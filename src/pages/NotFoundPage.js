@@ -11,7 +11,8 @@ function NotFoundPage() {
   console.error(error);
   return (
     <MainLayout>
-      <div>Not Found Page</div>
+      <div className="page-layout">
+      <h1>Not Found Page</h1>
       <div id="error-page">
         <h1>OH No Page Not Found.</h1>
         <div>An unexpected error has occurred
@@ -20,6 +21,7 @@ function NotFoundPage() {
           </div>
         </div>
       </div>
+     </div>
     </MainLayout>
   );
 }

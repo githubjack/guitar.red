@@ -3,7 +3,7 @@ import MainLayout from '../layout/MainLayout';
 function ContactPage() {
   return (
     <MainLayout>
-      <div>Contact page</div>
+      <div className="page-layout">Contact page</div>
     </MainLayout>
   );
 }

@@ -3,7 +3,7 @@ import MainLayout from '../layout/MainLayout'
 function CoursesPage() {
   return (
     <MainLayout>
-      <div>Courses page</div>
+      <div className='page-layout'>Courses page</div>
     </MainLayout>
   )
 }
