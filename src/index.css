@@ -95,10 +95,14 @@ Global styles for Fixed Navbar
   }
 
 }
+.page-layout div:nth-child(2){
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
 
 .page-auto {
   grid-template-columns: auto auto;
   align-items: start;
 }
-
 
