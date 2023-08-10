@@ -12,7 +12,7 @@ function Hero() {
       </div>
 
       <div>
-        <Link to="">EXPLORE courses</Link>
+        <Link to="">EXPLORE our courses</Link>
       </div>
     </>
   );
